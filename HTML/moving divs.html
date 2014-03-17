@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>HTML Research</title>
+<link rel="stylesheet" type="text/css" href="resources/stylesheet.css">
+<script type="text/javascript" src="resources/general javascript.js"></script>
+<script type="text/javascript" src="resources/moving divs javascript.js"></script>
+</head>
+
+<body>
+ <div id="background">
+  <div id="top">
+   <div id="top-text" style="margin-top:30px;">
+    <h1>Moving Divs</h1>
+   </div>
+  </div>
+  <div id="navigation">
+   <div id="navtextbox" style="margin-left:10px;margin-top:10px;">
+    <p><a href="index.html">Main Page</a></p>
+    <p><a href="javascript.html">Onclick and Mouseover</a></p>
+    <p><a href="text.html">Text</a></p>
+    <p>Moving Divs</p>
+    <p><a href="number generator.html">Number Generation</a></p>
+    <p><a href="arrays.html">Arrays</a></p>
+    <p><a href="keyboard usage.html">Using the Keyboard</a></p>
+    <p><a href="work in progress.html">Work in progress</a></p>
+   </div>
+  </div>
+  <div id="textbox">
+   <div id="textboxbox" style="margin-left:10px;">
+    <div id="buttonincreasex">
+     <button type="button" onclick="increasex()">Right</button>
+    </div>
+    <div id="buttonincreasey">
+     <button type="button" onclick="increasey()">Down</button>
+    </div>
+    <div id="buttonresetxy">
+     <button type="buton" onclick="resetxy()">Reset</button>
+    </div>
+    <div id="positionsbox">
+     <p id="pos"></p>
+    </div>
+    <div id="buttondecreasex">
+     <button type="button" onclick="decreasex()">Left</button>
+    </div>
+    <div id="buttondecreasey">
+     <button type="button" onclick="decreasey()">Up</button>
+    </div>
+    <div id="buttonrendercoin">
+     <button type="button" onclick="rendermoney()">Start</button>
+    </div>
+	<div id="descdivscontainer">
+     <div id="descdivs">
+	  <p>Press start once to begin</p>
+	  <p>Use WASD or the buttons to the left</p>
+     </div>
+	</div>
+   <div id="coinposbox">
+    <p id="coinpos"></p>
+   </div>
+   <div id="Guybox">
+    <img src="resources/images/objects/guy.png" style="width:16px;height:41px;">
+   </div>
+   <div id="coindiv">
+    <img id="coinpic" name="coinpic" src="">
+  </div>
+  <div id="scorebox">
+   <p id="score"></p>
+  </div>
+  </div>
+ </div>
+ <div id="footer">
+   <p>Created by Cyrus Nilsson</p>
+ </div>
+</body>
+
+</html>
